@@ -1,4 +1,5 @@
 # compiled output
+/assets
 /dist
 /reports
 /test/unit/coverage

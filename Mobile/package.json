@@ -1,0 +1,40 @@
+{
+	"name": "stubefy",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "npm run adb && react-native run-android",
+		"adb": "adb reverse tcp:3333 tcp:3333",
+		"clear": "npm cache clean",
+		"cleargit": "git rm -r --cached . && git add . && git commit -m \".gitignore fix\"",
+		"test": "jest"
+	},
+	"dependencies": {
+		"@react-native-community/async-storage": "^1.6.1",
+		"@react-native-community/slider": "^2.0.0",
+		"axios": "^0.19.0",
+		"html-entities": "^1.2.1",
+		"react": "16.8.6",
+		"react-native": "^0.60.5",
+		"react-native-gesture-handler": "^1.4.1",
+		"react-native-reanimated": "^1.2.0",
+		"react-native-vector-icons": "^6.6.0",
+		"react-native-video": "^5.0.0",
+		"react-navigation": "^3.11.1",
+		"reactotron-react-native": "^3.6.5",
+		"socket.io-client": "^2.2.0",
+		"styled-components": "^4.3.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.0",
+		"@babel/runtime": "^7.5.0",
+		"@react-native-community/eslint-config": "^0.0.3",
+		"babel-jest": "^24.1.0",
+		"jest": "^24.1.0",
+		"metro-react-native-babel-preset": "^0.54.1",
+		"react-test-renderer": "16.8.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

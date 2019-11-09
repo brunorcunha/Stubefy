@@ -1,0 +1,28 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "opusscript": "0.0.7",
+    "ytsearcher": "^1.2.2",
+    "ytdl-core": "^0.29.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2",
+    "nodemon": "^1.19.1",
+    "sucrase": "^3.10.1"
+  }
+}
